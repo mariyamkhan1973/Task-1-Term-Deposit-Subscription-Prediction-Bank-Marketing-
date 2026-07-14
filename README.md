@@ -35,20 +35,20 @@ imbalanced target, and explain individual predictions using SHAP.
 
 ## Repository Structure
 
-
-
+```
+.
 ├── Term_Deposit_Prediction.ipynb   # Full notebook: EDA → modeling → SHAP explainability
 ├── data/
 │   └── bank_marketing.csv          # Dataset (see note below)
 ├── requirements.txt
 └── README.md
-
+```
 
 
 ##  How to Run
 
-
+```
 pip install -r requirements.txt
-
 jupyter notebook Term_Deposit_Prediction.ipynb
+```
 
