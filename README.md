@@ -1,5 +1,3 @@
-# Task-1-Term-Deposit-Subscription-Prediction-Bank-Marketing-
-
 # Term Deposit Subscription Prediction — Bank Marketing
 
 Predicting whether a bank customer will subscribe to a term deposit as a result of a
@@ -11,7 +9,7 @@ Build a classification model that predicts term deposit subscription (`yes`/`no`
 customer demographic and campaign-interaction data, evaluate it with metrics suited to an
 imbalanced target, and explain individual predictions using SHAP.
 
-##  Approach
+## Approach
 
 1. **EDA** — explored the distribution of the target, numeric features, and subscription
    rate by job category to understand the data before modeling.
@@ -23,7 +21,7 @@ imbalanced target, and explain individual predictions using SHAP.
 5. **Explainability** — used `shap.TreeExplainer` on the Random Forest model to produce a
    global summary plot and to explain 5 individual customer predictions.
 
-##  Results & Findings
+## Results & Findings
 
 - The dataset is imbalanced (~10% subscribers), so F1-score and ROC-AUC were used instead
   of raw accuracy.
@@ -37,21 +35,18 @@ imbalanced target, and explain individual predictions using SHAP.
 
 ## Repository Structure
 
+
+
 ├── Term_Deposit_Prediction.ipynb   # Full notebook: EDA → modeling → SHAP explainability
 ├── data/
 │   └── bank_marketing.csv          # Dataset (see note below)
 ├── requirements.txt
 └── README.md
 
-##Tech Stack
-. pandas 
-· numpy 
-· scikit-learn 
-· shap 
-· matplotlib 
-· seaborn
+
 
 ##  How to Run
+
 
 pip install -r requirements.txt
 
