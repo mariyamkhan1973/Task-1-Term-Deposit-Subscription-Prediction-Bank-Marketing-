@@ -37,27 +37,22 @@ imbalanced target, and explain individual predictions using SHAP.
 
 ## Repository Structure
 
-```
-.
 ├── Term_Deposit_Prediction.ipynb   # Full notebook: EDA → modeling → SHAP explainability
 ├──  bank_marketing.csv          # Dataset (see note below)
 ├── requirements.txt
 └── README.md
-```
 
-## Note on the dataset
 
-`data/bank_marketing.csv` is a **synthetically generated dataset** built to match the exact
-schema and general statistical distributions of the real
-[UCI Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)
-(same column names and value ranges), since the real file couldn't be downloaded in the
-environment this project was built in. To use the real dataset, simply download it from UCI
-and replace `data/bank_marketing.csv` — the notebook code runs unchanged since column
-names match.
+**Tech Stack**
+. pandas 
+· numpy 
+· scikit-learn 
+· shap 
+· matplotlib 
+· seaborn
 
 ##  How to Run
 
-```bash
 pip install -r requirements.txt
 jupyter notebook Term_Deposit_Prediction.ipynb
-```
+
